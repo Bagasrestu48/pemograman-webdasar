@@ -1,0 +1,47 @@
+
+.navbar {
+	background-color: #ff0000;
+    margin:0;
+    padding:30 px;
+    border-radius: 10px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    margin: 0;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.menu li{
+    padding-left: 0;
+   margin-left: 55px;
+}
+.menu li a{
+    padding: 10px;
+    color: hsl(0, 0%, 0%);
+    text-decoration:none ;
+    display: inline-block;
+}
+.cover{
+   width: 100px;
+      height: 120px;
+      background: rgb(255, 255, 255);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      padding: 20px 20px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-radius: 15px;
+      color: rgb(0, 0, 0);
+}
+.buku, .majalah{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
