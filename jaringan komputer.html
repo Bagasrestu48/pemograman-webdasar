@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tampilan Buku</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      background-color: #ffffff;
+      padding: 20px;
+    }
+
+    .book-card {
+      background-color: rgb(255, 255, 255);
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgb(173, 173, 173);
+      max-width: 600px;
+      margin: auto;
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .book-image {
+  width: 30%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+    .book-details {
+      padding: 20px;
+      width: 60%;
+    }
+
+    .book-title {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      color: #000000;
+    }
+
+    .book-sinopsis {
+      font-size: 0.95em;
+      color: #000000;
+      margin-bottom: 20px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .buttons a {
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.9em;
+      color: rgb(255, 255, 255);
+    }
+.back-button {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 999;
+}
+
+.back-button button {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.back-button button:hover {
+  background-color: #cc0000;
+}
+
+    .btn-beli {
+      background-color: #ff0000;
+    }
+
+    .buttons a:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+ <div class="book-card">
+    <div class="book-image">
+      <img src="buku3.jpeg" alt="Cover Buku">
+    </div>
+    <div class="book-details">
+      <div class="book-title">Pengantar Jaringan Komputer</div>
+      <div class="book-sinopsis">
+         <p>Penerbit : Deepublish</p>
+       <p>Pengarang : Agung Suprapto, M.Eng.</p>
+       <p>Jumlah Halaman : 119 halaman</p>
+       <p>Sinopsis :</p>
+       <p>Uraian tentang jaringan komputer : teori dasar, perangkat, protokol,
+         keamanan, hingga troubleshooting didesain praktis dan ringkas bagi pemula.</p>
+      </div>
+      <div class="buttons">
+        <a href="notif.html" class="btn-beli">Beli</a>
+      </div>
+    </div>
+  </div>
+  <br>
+   <div class="back-button">
+  <a href="buku komputer.html">
+    <button> Kembali</button>
+  </a>
+</body>
+</html>

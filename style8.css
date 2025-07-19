@@ -1,21 +1,21 @@
+a[href="latihan20.html"],
+a[href="latihan21.html"] {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .navbar {
 	background-color: #ff0000;
     margin:0;
-    padding:30 px;
-    border-radius: 10px;
-    
-}
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 30 px;
 }
 .menu {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-    background: #e70000;
+    background: #fa0000;
 }
 .menu  li {
     position: relative;
@@ -31,7 +31,7 @@
     position: absolute;
     top: 100%;
     left: 0;
-    background: #ece3e3;
+    background: #e7e7e7e4;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -49,34 +49,78 @@
     color: #000000;
     text-decoration: none;
 }
-
 .menu li:hover > ul {
     display: block;
 }
-
 .menu li ul li ul {
     top: 0;
     left: 100%;
 }
+
 .menu li a:hover, 
 .menu li ul li:hover {
-    background: #bababa;
+    background: #979797;
 }
-.cover{
-   width: 100px;
-      height: 120px;
-      background: rgb(255, 255, 255);
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-      padding: 20px 20px;
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      border-radius: 15px;
-      color: rgb(0, 0, 0);
-}
-.buku, .majalah{
+.cover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(66, 66, 66, 0.518);
+    text-align: center;
+    margin: 20px;
+    flex: 1 1 150px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.cover p{
+     font-weight: bold;
+     color: #ff0000;
+     margin-bottom: 10px;
+}
+button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+.img-cover {
+  max-width: 100%;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.buku, .majalah {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
+}
+
+.buku-best-seller h2, .majalah-best-seller h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn-beli {
+  display: inline-block;
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.btn-beli:hover {
+  background-color: #b92424;
 }
